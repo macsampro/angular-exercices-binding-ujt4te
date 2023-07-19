@@ -1,0 +1,11 @@
+<table class="u-full-width">
+  <tbody>
+    <tr *ngFor="let data of dataUser">
+      <td>{{ data.name.title }}</td>
+      <td>{{ data.name.first }} {{ data.name.last }}</td>
+      <td>{{ data.dob.age }}</td>
+      <td>{{ data.gender }}</td>
+      <td>{{ data.location.city }}</td>
+    </tr>
+  </tbody>
+</table>
